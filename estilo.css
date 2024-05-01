@@ -37,19 +37,21 @@ body {
 
 /* interface */
 .interface-44e665656e82 {
-  position: relative;
-  width: 360px;
-  height: 640px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
   background: #EADAE7;
+  align-items: center;
+  justify-items: center;
   overflow: hidden;
   z-index: 0;
 }
 
 /* icon-1 */
 .icon1-44eea4993fb9 {
-  position: absolute;
-  left: 132px;
-  top: 135px;
+  position: relative;
+  left: 10%;
+  top: -25%;
   width: 30px;
   height: 30px;
   background: #C797BF;
