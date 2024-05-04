@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@media screen and (max-width: 700px) {
+    
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 16px;
+    }
+}
+
+body{
+    display: block;
+    background: #EADAE7;
+    width: 100vw;
+    height: 100vh;
+    color: #ffff;
+    
+}
+
+header{
+    background:  rgba(134, 63, 131, 1);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.BL\#321-123{
+    display: flex;
+    width: 35vw;
+    height: 10vh;
+    background: #EADAE7;
+    border-radius: 25px;
+    margin: 10%;
+    color:  rgba(134, 63, 131, 1);
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Fim */
+
+.BC\#321-123{
+    display:flex;
+    position: absolute;
+    top: 22%;
+    left: 2%;
+    width: 22vw;
+    height: 16vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #C797BF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.BA\#321-123{
+    display: flex;
+    background: #ff71e7;
+    width: 40vw;
+    height: 6vh;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.BR\#321-123{
+    display: flex;
+    background: #71d7ff;
+    width: 40vw;
+    height: 6vh;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.DC\#321-123{
+    display: flex;
+    background: rgba(134, 63, 131, 1);
+    width: 80vw;
+    height: 20vh;
+    border-radius: 20px;
+    margin: -1% 7.5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tex-emilly\#2233{
+    width: 70vw;
+    height: 15vh;
+    color: #ffff;
+}
+button{
+    width: 6vw;
+    height: 5vh;
+    font-size: 30px;
+    color: #ffff;
+    background: rgba(134, 63, 131, 1);
+    border: solid #C797BF 2px;
+    border-radius: 5px;
+}
+
+/* atenção */
+
+.atenção-44E36654534625DFdf{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 80vw;
+    height: 50vh;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    z-index: 1;
+    font-size: 70%;
+    box-shadow: 0px 2px 0px 2px #3b3b3b75;
+  }
