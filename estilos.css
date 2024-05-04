@@ -29,6 +29,10 @@ header{
     align-items: center;
     justify-content:space-between;
 }
+a{
+    text-decoration: none;
+    color: #ffff;
+}
 
 .BL\#321-123{
     display: flex;
