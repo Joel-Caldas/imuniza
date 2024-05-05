@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@media screen and (max-width: 700px) {
+    
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 16px;
+    }
+}
+
+body{
+    display: block;
+    background: #EADAE7;
+    width: 100vw;
+    height: 100vh;
+    color: #ffff;
+    user-select: none;
+    
+}
+
+header{
+    background:  rgba(134, 63, 131, 1);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+h3:hover{
+    border: 2px solid rgb(63, 134, 66);
+    transition: 300ms;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.CCI\#321-123{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffff;
+    width: 100vw;
+    height: 10vh;
+    color: #863f83;
+    box-shadow: 2px 2px #0000004d;
+}
+
+.a{
+    display: flex;
+    background: #47863f;
+    width: 8vw;
+    height: 4.5vh;
+    border-radius: 50px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    color: #ffff;
+    cursor: pointer;
+}
+
+#FC\#123-321{
+    display: flex;
+    align-items: center;
+    color: #863f83;
+}
+
+
+.vacinas{
+    display: flex;
+    flex-direction: column;
+    background: #47863f85;
+    border: solid #47863f;
+    border-radius: 20px;
+    width: 90vw;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 14%;
+    
+}.vacinas h2{
+    font-size: 22px;
+    color: #421d40;
+}
+
+.vacinas-tg{
+    display: flex;
+    flex-direction: column;
+    background: #47863f85;
+    border: solid #47863f;
+    border-radius: 20px;
+    width: 90vw;
+    height: 24vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 14%;
+}.vacinas-tg h2{
+    font-size: 20px;
+    color: #421d40;
+}
+
+.vacinas-tm{
+    display: flex;
+    flex-direction: column;
+    background: #47863f85;
+    border: solid #47863f;
+    border-radius: 20px;
+    width: 90vw;
+    height: 24vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 14%;
+} .vacinas-tm h2{
+    color: #421d40;
+}
+
+.vacinas-tp{
+    display: flex;
+    flex-direction: column;
+    background: #47863f85;
+    border: solid #47863f;
+    border-radius: 20px;
+    width: 90vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 14%;
+} .vacinas-tp h2{
+    color: #421d40;
+}
+
+.vacinas-tgm{
+    display: flex;
+    flex-direction: column;
+    background: #47863f85;
+    border: solid #47863f;
+    border-radius: 20px;
+    width: 90vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 14%;
+}.vacinas-tgm h2{
+    color: #421d40;
+    font-size: 22px;
+}
+
+.vacinas-tgg{
+    display: flex;
+    flex-direction: column;
+    background: #47863f85;
+    border: solid #47863f;
+    border-radius: 20px;
+    width: 90vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 14%;
+}.vacinas-tgg h2{
+    color: #421d40;
+    font-size: 22px;
+}
+
+button{
+    width: 35vw;
+    height: 8vh;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: -10%;
+    background: #421d40;
+    color: #ffff;
+    border: solid #EADAE7;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
