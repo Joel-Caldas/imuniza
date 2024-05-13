@@ -167,10 +167,8 @@ h3:hover{
 }
 
 button{
-    position: relative;
     width: 35vw;
     height: 8vh;
-    top: 30%;
     font-size: 20px;
     border-radius: 20px;
     background: #421d40;
