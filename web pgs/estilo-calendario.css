@@ -118,7 +118,7 @@ h3:hover{
     margin-bottom: 14%;
 } .vacinas-tm h2{
     color: #ffff;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .vacinas-tp{
@@ -131,7 +131,7 @@ h3:hover{
     height: 20vh;
     text-align: center;
     margin: 2%;
-    margin-bottom: 14%;
+    margin-bottom: 5%;
 } .vacinas-tp h2{
     color: #ffff;
 }
@@ -150,7 +150,7 @@ h3:hover{
 }.vacinas-tgm h2{
     color: #ffff;
     font-size: 22px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .vacinas-tgg{
@@ -167,7 +167,7 @@ h3:hover{
 }.vacinas-tgg h2{
     color: #ffff;
     font-size: 22px;
-    margin-bottom: 11.8%;
+    margin-bottom: 5%;
 }
 
 button{
