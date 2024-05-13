@@ -2,15 +2,6 @@
     margin: 0%;
     padding: 0%;
 }
-@media screen and (max-width: 700px) {
-    
-    h2{
-        font-size: 24px;
-    }
-    h3{
-        font-size: 16px;
-    }
-}
 
 body{
     display: block;
@@ -69,25 +60,32 @@ h3:hover{
     align-items: center;
     color: #863f83;
 }
-
+.fundo{
+    background: #421d40;
+    border: solid #47863f;
+}
+.date-div{
+    width: 50vw;
+    height: 6vh;
+    margin: 5%;
+    color: #421d40;
+}
 
 .vacinas{
     display: flex;
     flex-direction: column;
+    margin: 4%;
     background: #47863f85;
     border: solid #47863f;
     border-radius: 20px;
     width: 90vw;
     height: 15vh;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    margin: 2%;
     margin-bottom: 14%;
     
 }.vacinas h2{
     font-size: 22px;
-    color: #421d40;
+    color: #FFFF;
 }
 
 .vacinas-tg{
@@ -98,14 +96,13 @@ h3:hover{
     border-radius: 20px;
     width: 90vw;
     height: 24vh;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     margin: 2%;
     margin-bottom: 14%;
 }.vacinas-tg h2{
     font-size: 20px;
-    color: #421d40;
+    color: #ffff;
+    margin-bottom: 5%;
 }
 
 .vacinas-tm{
@@ -116,13 +113,12 @@ h3:hover{
     border-radius: 20px;
     width: 90vw;
     height: 24vh;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     margin: 2%;
     margin-bottom: 14%;
 } .vacinas-tm h2{
-    color: #421d40;
+    color: #ffff;
+    margin-bottom: 10%;
 }
 
 .vacinas-tp{
@@ -133,13 +129,11 @@ h3:hover{
     border-radius: 20px;
     width: 90vw;
     height: 20vh;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     margin: 2%;
     margin-bottom: 14%;
 } .vacinas-tp h2{
-    color: #421d40;
+    color: #ffff;
 }
 
 .vacinas-tgm{
@@ -150,14 +144,13 @@ h3:hover{
     border-radius: 20px;
     width: 90vw;
     height: 40vh;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     margin: 2%;
     margin-bottom: 14%;
 }.vacinas-tgm h2{
-    color: #421d40;
+    color: #ffff;
     font-size: 22px;
+    margin-bottom: 10%;
 }
 
 .vacinas-tgg{
@@ -168,27 +161,42 @@ h3:hover{
     border-radius: 20px;
     width: 90vw;
     height: 60vh;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     margin: 2%;
-    margin-bottom: 14%;
+    margin-bottom: 10%;
 }.vacinas-tgg h2{
-    color: #421d40;
+    color: #ffff;
     font-size: 22px;
+    margin-bottom: 11.8%;
 }
 
 button{
+    position: relative;
     width: 35vw;
     height: 8vh;
+    top: 30%;
     font-size: 20px;
     border-radius: 20px;
-    margin-bottom: -10%;
     background: #421d40;
     color: #ffff;
     border: solid #EADAE7;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover{
+    width: 35vw;
+    height: 8vh;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #863f83;
+    color: #fff;
+    border: solid #EADAE7;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
 
 }
 
